@@ -11,7 +11,7 @@ import taskFunction from './$2.js';
 "
 
 if [ -n $1 ] && [ -n $2 ]; then
-    mkdir $1 && cd $1 && touch $taskFile $testFile &&
+    mkdir -p $1 && cd $1 && touch $taskFile $testFile &&
     echo -e $taskTemplate >> $taskFile &&
     echo -e $testTemplate >> $testFile
 fi
