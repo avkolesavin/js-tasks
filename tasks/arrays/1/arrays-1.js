@@ -5,6 +5,6 @@
  * 
  * REMARK: passed array should not be mutated
  */
-export default function makeArrayPositive(array) {
+module.exports = function makeArrayPositive(array) {
     return array;
 }

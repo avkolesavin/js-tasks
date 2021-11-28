@@ -4,6 +4,6 @@
  * the string should be reduced and filled by '...' for fit the
  * max length.
  */
-export default function truncate(str, maxLength) {
+module.exports = function truncate(str, maxLength) {
     return str;
 }

@@ -2,7 +2,7 @@
 
 taskFile="$2.js"
 testFile="$2.test.js"
-taskTemplate="export default function taskName() {}"
+taskTemplate="module.exports = function taskName() {}"
 testTemplate="
 import taskFunction from './$2.js';
 \n\ndescribe('Task $2', () => {

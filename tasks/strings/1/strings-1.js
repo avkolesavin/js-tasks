@@ -1,6 +1,6 @@
 /**
  * Function should take string and return reversed string
  */
-export default function reverse(str) {
+module.exports = function reverse(str) {
     return str;
 }

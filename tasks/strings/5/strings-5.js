@@ -5,6 +5,6 @@
  * 
  * Example: for strings "yes" and "yep", 1 should be returned.
  */
-export default function diffStrings(str1, str2) {
+module.exports = function diffStrings(str1, str2) {
     return 0;
 }
