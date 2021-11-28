@@ -3,6 +3,6 @@
  * and should turn all negative numbers into positive
  * and return this array
  */
-export default function (array) {
+export default function makeArrayPositive(array) {
     return array;
 }

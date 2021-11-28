@@ -3,6 +3,6 @@
  * The function should cut a word with the most length and
  * return the string without this word.
  */
-export default function taskName(str) {
+export default function cutLongestWord(str) {
     return str;
 }
