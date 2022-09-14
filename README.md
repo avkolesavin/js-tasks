@@ -1,4 +1,8 @@
-## This is a set of JavaScript tasks
+## It is a set of JavaScript tasks
+
+Before all you should install dependencies
+
+`npm i` or `npm ci`
 
 To run tests for all tasks use
 
